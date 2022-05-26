@@ -5,8 +5,8 @@ const elResult = document.querySelector(".form-result");
 elBtn.addEventListener('click', function (e){
     e.preventDefault()
 
-    const inputValue = Number(elInput.value.trim());
-    console.log(inputValue);
+    const inputValue = Number(elInput.value);
+    // console.log(inputValue);
 
     switch (inputValue) {
         case 1:
@@ -31,7 +31,7 @@ elBtn.addEventListener('click', function (e){
             elResult.textContent = "Sunday"
             break;
         default:
-            elResult.textContent = "Bunday kun yo'q"
+            elResult.textContent = "Bunaqa kun yo'qku shuni ham bilmaysanmi ahmoq🤦‍♂️"
         }
 
     })
